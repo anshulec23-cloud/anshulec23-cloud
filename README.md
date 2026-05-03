@@ -1,16 +1,20 @@
-## Hi there 👋
+# BLITZcomm · Anshul
 
-<!--
-**anshulec23-cloud/anshulec23-cloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Security & AI systems engineer — building at the intersection of 
+> threat detection, industrial security, and financial risk intelligence.
 
-Here are some ideas to get you started:
+## 🔐 Active Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Project | What It Does | Stack |
+|---|---|---|
+| [aegis-ics](https://github.com/anshulec23-cloud/aegis-ics) | Zero-trust micro-segmentation for ICS/OT devices | Python, MQTT/TLS, Flask, ESP32 |
+| [ares-recon-system](https://github.com/anshulec23-cloud/ares-recon-system) | Urban recon platform with Wi-Fi heatmapping & route intel | FastAPI, React, MapLibre, Docker |
+| [bank-risk-assessment](https://github.com/anshulec23-cloud/Bank-risk-assessment-application-) | Agentic AI for cyber attack financial blast radius quantification | Python, AI agents |
+| [digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system) | Real-time AI surveillance with anomaly detection | Python, OpenCV |
+| [image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection) | Deep learning forensics for document & media fraud | Python, Deep Learning |
+
+## 🛠️ Stack
+`Python` `FastAPI` `Flask` `React` `MQTT` `Docker` `OpenCV` `ESP32/C++` `OpenStreetMap`
+
+## 📬 Contact
+[LinkedIn](#) · [Email](#)
