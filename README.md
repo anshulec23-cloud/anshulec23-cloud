@@ -17,4 +17,4 @@
 `Python` `FastAPI` `Flask` `React` `MQTT` `Docker` `OpenCV` `ESP32/C++` `OpenStreetMap`
 
 ## 📬 Contact
-[LinkedIn](#) · [Email](morbius122436@gmail.com)
+[LinkedIn](#) · [Email](mailto:morbius122436@gmail.com)
