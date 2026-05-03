@@ -8,7 +8,7 @@
 | Project | What It Does | Stack |
 |---|---|---|
 | [aegis-ics](https://github.com/anshulec23-cloud/aegis-ics) | Zero-trust micro-segmentation for ICS/OT devices | Python, MQTT/TLS, Flask, ESP32 |
-| [ares-recon-system](https://github.com/anshulec23-cloud/ares-recon-system) | Urban recon platform with Wi-Fi heatmapping & route intel | FastAPI, React, MapLibre, Docker |
+| [ares-recon-system](https://github.com/anshulec23-cloud/aegis-bank) | Urban recon platform with Wi-Fi heatmapping & route intel | FastAPI, React, MapLibre, Docker |
 | [bank-risk-assessment](https://github.com/anshulec23-cloud/Bank-risk-assessment-application-) | Agentic AI for cyber attack financial blast radius quantification | Python, AI agents |
 | [digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system) | Real-time AI surveillance with anomaly detection | Python, OpenCV |
 | [image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection) | Deep learning forensics for document & media fraud | Python, Deep Learning |
