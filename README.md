@@ -18,6 +18,8 @@ I design and implement security-hardened systems and edge telemetry validation g
 | **[aegis-ics](https://github.com/anshulec23-cloud/aegis-ics)** | Zero-trust MQTT gateway featuring Stuxnet-proof policy enforcer, trust scoring engine, and ESP32 hardware loop simulation. | Python, Flask, MQTT/TLS, ESP32, C++ |
 | **[aegis-bank](https://github.com/anshulec23-cloud/aegis-bank)** | Threat detection and financial risk blast radius quantification pipeline. | FastAPI, React, PostgreSQL |
 | **[ares-recon-system](https://github.com/anshulec23-cloud/ares-recon-system)** | Urban recon HUD and Wi-Fi heatmapping framework integrating ESP32 sensor scanning with MapLibre GL. | FastAPI, React, MapLibre GL, Docker, ESP32 |
+| **[digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system)** | Real-time surveillance tracking and anomaly detection. | OpenCV, FastAPI |
+| **[image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection)** | Forgery detection pipeline processing Error Level Analysis (ELA) for spatial explanations. | Streamlit, OpenCV |
 
 ---
 
