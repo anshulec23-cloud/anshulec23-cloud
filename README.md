@@ -19,7 +19,7 @@ I design and implement security-hardened systems, edge telemetry validation gate
 |:---|:---|:---|
 | **[aegis-ics](https://github.com/anshulec23-cloud/aegis-ics)** | Zero-trust MQTT gateway featuring Stuxnet-proof AI-policy enforcer, trust scoring engine, and ESP32 hardware loop simulation. | Python, Flask, MQTT/TLS, ESP32, C++ |
 | **[aegis-bank](https://github.com/anshulec23-cloud/aegis-bank)** | Multi-agent threat detection and financial risk blast radius quantification pipeline built with LangGraph and FastAPI. | LangGraph, FastAPI, React, PostgreSQL |
-| **[ares-recon-system](https://github.com/anshulec23-cloud/ares-recon-system)** | Urban recon HUD and Wi-Fi heatmapping framework integrating ESP32 sensor scanning with MapLibre GL. | FastAPI, React, MapLibre GL, Docker, ESP32 |
+| **[bergg-tactical-recon](https://github.com/anshulec23-cloud/bergg-tactical-recon)** | Urban recon HUD and Wi-Fi heatmapping framework integrating ESP32 sensor scanning with MapLibre GL. | FastAPI, React, MapLibre GL, Docker, ESP32 |
 | **[digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system)** | Real-time surveillance tracking and anomaly detection using YOLOv8, DeepSORT, and an LSTM Autoencoder. | PyTorch, OpenCV, YOLOv8, FastAPI |
 | **[image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection)** | Forgery detection pipeline processing Error Level Analysis (ELA) through fine-tuned CNNs and Grad-CAM spatial explanations. | PyTorch (ResNet), Streamlit, OpenCV |
 
