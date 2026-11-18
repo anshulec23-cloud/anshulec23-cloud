@@ -1,44 +1,37 @@
-# Anshul E.C.
+# Anshul
 
-> **Systems Security & AI Engineer** | Aspiring Graduate Researcher
-> Building at the intersection of threat detection, industrial control systems (ICS/OT) security, and financial risk intelligence.
+**Final-year B.E. Electronics &amp; Communication — Mangalore, India**
 
----
+I build systems for environments where something is actively trying to break them: industrial control security, computer-vision forensics, and the embedded hardware underneath both.
 
-### Research & Development Focus
-I design and implement security-hardened systems, edge telemetry validation gateways, and deep learning pipelines. My work focuses on:
-* **Industrial Control Systems (ICS/OT) Security**: Zero-trust broker enforcement, PLC simulation, and Stuxnet-proof policy gateways.
-* **Agentic AI & Threat Intelligence**: Multi-agent orchestration (LangGraph) for automated risk quantification and attack classification.
-* **Deep Learning Forensics**: Document forgery classification (CNNs + Explainable AI) and video anomaly tracking (YOLOv8 + LSTM Autoencoders).
+**Project write-ups → [bergg.me](https://bergg.me)**
 
 ---
 
-### Featured Projects
+### Focus
 
-| Project | Research & Engineering Focus | Core Stack |
-|:---|:---|:---|
-| **[aegis-ics](https://github.com/anshulec23-cloud/aegis-ics)** | Zero-trust MQTT gateway featuring Stuxnet-proof AI-policy enforcer, trust scoring engine, and ESP32 hardware loop simulation. | Python, Flask, MQTT/TLS, ESP32, C++ |
-| **[aegis-bank](https://github.com/anshulec23-cloud/aegis-bank)** | Multi-agent threat detection and financial risk blast radius quantification pipeline built with LangGraph and FastAPI. | LangGraph, FastAPI, React, PostgreSQL |
-| **[bergg-tactical-recon](https://github.com/anshulec23-cloud/bergg-tactical-recon)** | Urban recon HUD and Wi-Fi heatmapping framework integrating ESP32 sensor scanning with MapLibre GL. | FastAPI, React, MapLibre GL, Docker, ESP32 |
-| **[digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system)** | Real-time surveillance tracking and anomaly detection using YOLOv8, DeepSORT, and an LSTM Autoencoder. | PyTorch, OpenCV, YOLOv8, FastAPI |
-| **[image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection)** | Forgery detection pipeline processing Error Level Analysis (ELA) through fine-tuned CNNs and Grad-CAM spatial explanations. | PyTorch (ResNet), Streamlit, OpenCV |
+- **ICS / OT security** — inline zero-trust gateways, signed field telemetry, physical enforcement on ESP32 hardware rather than alerts after the fact
+- **Applied ML for security** — anomaly detection, attack classification, and explainable forensics where the explanation is part of the output
+- **Embedded &amp; edge** — ESP32 firmware, fieldbus framing, per-device key exchange, offline-first systems
 
 ---
 
-### Technical Stack
+### Projects
 
-* **Languages**: Python (Advanced), C/C++ (ESP32/Embedded), Javascript/ES6, SQL
-* **AI & Computer Vision**: PyTorch, YOLOv8, OpenCV, LangGraph (Multi-Agent), Hugging Face, Streamlit
-* **Security & Network**: MQTT/TLS, Zero-Trust Architecture, Cryptographic Verification (HMAC, JWT), WebSockets
-* **Infrastructure & Tools**: Docker, Docker Compose, PostgreSQL, SQLite, Git, GitHub Actions (CI/CD)
+| Project | What it does | Stack |
+| --- | --- | --- |
+| **[aegis-ics](https://github.com/anshulec23-cloud/aegis-ics)** | Zero-trust gateway and physical safety enforcer for industrial control systems. Validates every frame, tests setpoints against physical stability limits, de-energises a relay in 12.74 ms. [Write-up](https://bergg.me/projects/aegis-ics.html) | Python, Flask, ESP32, scikit-learn |
+| **[digital-surveillance-system](https://github.com/anshulec23-cloud/digital-surveillance-system)** | Real-time video anomaly detection. YOLOv8 → DeepSORT → LSTM autoencoder, trained on normal footage only. [Write-up](https://bergg.me/projects/sentinel.html) | PyTorch, YOLOv8, FastAPI |
+| **[image-forgery-detection](https://github.com/anshulec23-cloud/image-forgery-detection)** | Document screening via a dual-stream ResNet18 over raw RGB and Error Level Analysis, with Grad-CAM evidence maps. [Write-up](https://bergg.me/projects/image-forgery-detection.html) | PyTorch, ResNet18, Streamlit |
+| **[aegis-bank](https://github.com/anshulec23-cloud/aegis-bank)** | Five-agent LangGraph pipeline that detects OT attacks, isolates the device, and prices the incident in downtime, SLA and regulatory exposure. [Write-up](https://bergg.me/projects/cyberrisk.html) | LangGraph, FastAPI, MQTT, React |
+| **[bergg-tactical-recon](https://github.com/anshulec23-cloud/bergg-tactical-recon)** | Offline-first navigation console. Local Valhalla routing with automatic OSRM fallback, telemetry swept along the route. [Write-up](https://bergg.me/projects/tactical-recon.html) | JavaScript, Python, Docker |
+
+---
+
+### Stack
+
+`Python` · `JavaScript` · `C/C++ (ESP32)` · `PyTorch` · `scikit-learn` · `FastAPI` · `Flask` · `MQTT` · `Docker` · `GitHub Actions`
 
 ---
 
-### Contact & Links
-
-* **LinkedIn**: [Anshul R](https://www.linkedin.com/in/anshul-r-68b50229a/)
-* **Email**: [anshul.ec23@sahyadri.edu.in](mailto:anshul.ec23@sahyadri.edu.in)
-* **Portfolio**: Deployed live demos linked inside individual project repositories.
-
----
-*“Complexity is the enemy of security.” — Bruce Schneier. I build systems to prove it.*
+<sub>Each project README documents its own limits — what is tested, what is simulated, and what has not been validated yet. The write-ups at <a href="https://bergg.me">bergg.me</a> go into why each system is built the way it is.</sub>
